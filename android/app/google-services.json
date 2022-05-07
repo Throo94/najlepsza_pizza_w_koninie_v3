@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "182819137277",
+    "project_id": "najlepsza-pizza-w-koninie-v3",
+    "storage_bucket": "najlepsza-pizza-w-koninie-v3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182819137277:android:a612958942a1c9ba7a0094",
+        "android_client_info": {
+          "package_name": "com.jakubprymus.najlepsza_pizza_w_koninie_v3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182819137277-tlmart65b113tiq8m7hl35f5nhed3gfm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4Nh4Ne7Wbt-hvqT6D-UnoRl5ELh7Pfvc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182819137277-tlmart65b113tiq8m7hl35f5nhed3gfm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
