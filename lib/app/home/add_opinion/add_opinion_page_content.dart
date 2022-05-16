@@ -13,7 +13,7 @@ class AddOpinionPageContent extends StatefulWidget {
 class _AddOpinionPageContentState extends State<AddOpinionPageContent> {
   var restaurantName = '';
   var pizzaName = '';
-  var rating = 3.0;
+  var raiting = 3.0;
 
   @override
   Widget build(BuildContext context) {
@@ -41,21 +41,21 @@ class _AddOpinionPageContentState extends State<AddOpinionPageContent> {
           Slider(
             onChanged: (newValue) {
               setState(() {
-                rating = newValue;
+                raiting = newValue;
               });
             },
-            value: rating,
+            value: raiting,
             min: 1.0,
             max: 6.0,
             divisions: 10,
-            label: rating.toString(),
+            label: raiting.toString(),
           ),
           ElevatedButton(
             onPressed: () {
               FirebaseFirestore.instance.collection('restaurants').add({
                 'name': restaurantName,
                 'pizza': pizzaName,
-                'raiting': rating,
+                'raiting': raiting,
               });
             },
             child: const Text('Dodaj'),
